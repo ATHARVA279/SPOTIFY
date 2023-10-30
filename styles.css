@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#logo{
+    padding-top: 20px;
+    padding-left: 7px;
+    height: 35px;
+}
+
+.good10{
+    padding-top: 75px; 
+    padding-left: 240px; 
+    color: white; 
+    position: relative; 
+    background-color: rgb(32,32,32); 
+    z-index: -1;
+    
+}
+
+.good20{
+    padding-top: 10px;
+    padding-left: 240px;
+    color: white; 
+    position: relative; 
+    background-color: rgb(32,32,32); 
+    z-index: -1;
+}
+.high{
+    display: flex;
+}
+
+.side-nav{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+    /* z-index: -1; */
+    font-size: 10px;
+}
+
+.right-side img{
+    height: 50px;
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.home h1{
+    padding-left: 15px;
+}
+
+.home img{
+    height: 20px;
+}
+
+.plus{
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    align-content: center;
+    position: relative;
+}
+
+.liked{
+    background-image: url(./assets/object1.png);
+}
+
+.more-lower{
+    margin: 20px 20px;
+    background-color: black;
+}
+
+.more-lower h2{
+    margin-top:10px;
+}
+
+.install{
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+}
+.install img{
+    height: 20px;
+}
+.install h1{
+    margin-left: 15px;
+}
+/* Lower play bar */
+
+.lower-side{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    background-color:rgb(24,24,24);
+    border-top: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.rightopt{
+    height: 30px;
+    margin-top: 10px;
+}
+
+.dream{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.dream p{
+    margin: 5px;
+}
+.nef{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexend{
+    display: flex;
+    align-items: flex-end;
+}
+
+.green{
+    height: 100px;
+    width: 100%;
+    color: green;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.right-side{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 15%;
+    background-color: rgb(32,32,32);
+    justify-content: space-between;
+    width: 85%;
+}
+
+.profile{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 32px;
+    border-radius: 16px;
+    margin: 10px;
+
+}
+
+.profile img{
+    height: 27px;
+    border-radius: 50%;
+    margin: 2px 0 0 2px;
+}
+
+.arrow img{
+    height: 30px;
+    margin: 20px;
+}
+
+.angel{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.good1{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    left: 20%;
+    background-color: rgb(46, 46, 46);
+    justify-content: space-between;
+    width: 80%;
+
+}
+.good{
+    padding-top: 40px;
+    padding-left: 300px;
+    color: black;
+    /* background-color: rgb(46, 46, 46); */
+    z-index: -10;
+}
+
+.happy{
+    /* padding-top: 70px; */
+    padding-left: 16%;
+    color: #25211F;
+    background-color: rgb(32,32,32);
+    z-index: -10;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.songs{
+    display: flex;
+    height: 70px;
+    width: 250px;
+    background-color: rgb(48,48,48);
+    margin: 10px;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+
+}
+
+.songs img{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px 0 0 5px;
+}
+
+.songs h1{
+    padding: 4px;
+}
+
+.face{
+    height: 220px;
+    width: 175px;
+    background-color: rgb(24,24,24);
+    margin: 20px 0px 5px 0px;
+    color: white;
+    font-size: 10px;
+    align-content: center;
+}
+
+.face img{
+    height: 140px;
+    margin: 20px 20px 10px 18px;
+}
+
+.face h1{
+    margin-left: 10px;
+}
+
+.happy1{
+    margin-top: 0px;
+    padding-left: 16%;
+    color: #25211F;
+    background-color: rgb(32,32,32);
+    z-index: -10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.burger{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .html{
+        background-color: rgb(32,32,32);
+    }
+    .happy{
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        padding-left: 0;
+    }    
+    .right-side{
+        left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .happy1{
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .lower-side{
+        display: none;
+    }
+    .good10{
+        padding-left: 10px;
+
+        margin-left: 0;
+    }
+    .good20{
+        padding-left: 10px;
+        margin-left: 0;
+    }
+    .side-nav{
+        display: none;
+    }
+    .profile h1{
+        display: none;
+    }
+   
+    .profile>img{
+        display: none;
+        background-color: none;
+    }
+    .burger{
+        display: block;
+    }
+    
+}
